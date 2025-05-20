@@ -1,6 +1,6 @@
 ---
 Name: Kubernetes Nodes Tool
-Description: Retrieve Kubernetes nodes from a cluster.
+Description: Used to retrieve Kubernetes nodes from a cluster.
 Credential: ./credential
 Param: kubeconfig_path: Optional; provide if specific kubeconfig path is needed
 
