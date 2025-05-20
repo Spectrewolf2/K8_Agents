@@ -1,0 +1,14 @@
+---
+Name: Kubernetes Nodes Tool
+Description: Retrieve Kubernetes nodes from a cluster.
+Credential: ./credential
+Param: kubeconfig_path: Optional; provide if specific kubeconfig path is needed
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/get_nodes_client.py ${kubeconfig_path}
+
+---
+!metadata:*:category
+DevOps
+---
+!metadata:*:icon
+https://www.svgrepo.com/show/354202/kubernetes.svg
